@@ -12,16 +12,16 @@
     <nav>
         <h1 class="nav-logo">Frispes.</h1>
         <ul class="nav-links">
-            <li><a href="">Home</a></li>
-            <li><a href="">Workspace</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">Events</a></li>
-            <li><a href="">Reviews</a></li>
-            <li><a href="">Contact Us</a></li>
+            <li><a href="#" class="link">Home</a></li>
+            <li><a href="#" class="link">Workspace</a></li>
+            <li><a href="#" class="link">Services</a></li>
+            <li><a href="#" class="link">Events</a></li>
+            <li><a href="#" class="link">Reviews</a></li>
+            <li><a href="#" class="link">Contact Us</a></li>
         </ul>
         <ul class="nav-btns">
-            <li><a href="" class="log-in-btn">Log In</a></li>
-            <li><a href="" class="sign-up-btn">Sign Up</a></li>
+            <li><a href="./sign-in.html" target="_blank" class="log-in-btn link" id="nav-cta">Log In</a></li>
+            <li><a href="./sign-in.html" target="_blank" class="sign-up-btn link" id="nav-cta">Sign Up</a></li>
         </ul>
             <svg class="nav-hamburger" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M3 7H21" stroke="#3D5278" stroke-width="1.5" stroke-linecap="round"/>
@@ -30,52 +30,18 @@
             </svg>
     </nav>
 
-    <div class="container" id="container">
-        <div class="form-container sign-up-container">
-            <form action="#">
-                <h1>Create Account</h1>
-                <div class="social-container">
-                    <a href="#" class="social"><i class="fa fa-facebook-f"></i></a>
-                    <a href="#" class="social"><i class="fa fa-google-plus-g"></i></a>
-                    <a href="#" class="social"><i class="fa fa-linkedin-in"></i></a>
-                </div>
-                <span>or use your email for registration</span>
-                <input type="text" placeholder="Name" />
-                <input type="email" placeholder="Email" />
-                <input type="password" placeholder="Password" />
-                <button>Sign Up</button>
-            </form>
-        </div>
-        <div class="form-container sign-in-container">
-            <form action="#">
-                <h1>Sign in</h1>
-                <div class="social-container">
-                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-                <span>or use your account</span>
-                <input type="email" placeholder="Email" />
-                <input type="password" placeholder="Password" />
-                <a href="#">Forgot your password?</a>
-                <button>Sign In</button>
-            </form>
-        </div>
-        <div class="overlay-container">
-            <div class="overlay">
-                <div class="overlay-panel overlay-left">
-                    <h1>Welcome Back!</h1>
-                    <p>To keep connected with us please login with your personal info</p>
-                    <button class="ghost" id="signIn">Sign In</button>
-                </div>
-                <div class="overlay-panel overlay-right">
-                    <h1>Hello, Friend!</h1>
-                    <p>Enter your personal details and start journey with us</p>
-                    <button class="ghost" id="signUp">Sign Up</button>
-                </div>
-            </div>
-        </div>
+    <div class="mobile-menu">
+        <ul class="hamburger-links">
+            <li><a href="#" class="link">Home</a></li>
+            <li><a href="#" class="link">Workspace</a></li>
+            <li><a href="#" class="link">Services</a></li>
+            <li><a href="#" class="link">Events</a></li>
+            <li><a href="#" class="link">Reviews</a></li>
+            <li><a href="#" class="link">Contact Us</a></li>
+        </ul>
     </div>
+
+    <div class="page-test"></div>
 
     <script src="/src/main.js"></script>
 </body>

@@ -1,11 +1,6 @@
-const signUpButton = document.getElementById('signUp');
-const signInButton = document.getElementById('signIn');
-const container = document.getElementById('container');
+const navHamburger = document.querySelector('.nav-hamburger');
 
-signUpButton.addEventListener('click', () => {
-	container.classList.add("right-panel-active");
-});
-
-signInButton.addEventListener('click', () => {
-	container.classList.remove("right-panel-active");
+navHamburger.addEventListener('click', () => {
+	const mobileMenu = document.querySelector('.mobile-menu');
+	mobileMenu.classList.toggle('active-menu');
 });
