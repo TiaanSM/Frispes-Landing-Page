@@ -38,7 +38,7 @@ li {
 .log-in-btn {
     color: orangered;
 	padding: 0;
-	background-color: white;
+	background-color: whitesmoke;
 	border: none;
 }
 
@@ -81,6 +81,8 @@ li {
 	height: 100vh;
     background-color: gray;
 }
+
+
 
 /* Media query */
 @media (max-width: 1100px) {
