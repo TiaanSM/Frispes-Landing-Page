@@ -76,7 +76,7 @@ li {
 	text-align: center;
 }
 
-
+/*------------------------*/
 
 .header-intro {
     margin-left: 7rem;
@@ -88,23 +88,18 @@ li {
     height: auto;
     display: flex;
     justify-content: space-between;
-    margin-left: 7rem;
-    margin-right: 7rem;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
+    margin: 1rem 7rem 2rem 7rem;
     flex-wrap: wrap;
 }
 
 .header-title {
     color: #10375c;
     font-size: 3rem;
-    margin-bottom: 1rem;
 }
 
 .color-text {
     color: #ff5722;
 }
-
 
 .header-desc {
     margin-top: 0.5rem;
@@ -125,18 +120,19 @@ li {
 .header-img {
     z-index: -1;
     position: absolute;
-    right: 10rem;
+    right: 0rem;
+    top: 0px;
 }
 
 .header-form {
-    width: 20rem;
-    height: 25rem;
+    width: 25rem;
+    height: 30rem;
     background-color: #10375c;
-    margin-top: 1rem;
+    margin-top: 3rem;
+    margin-left: 3rem;
     z-index: 1;
-    margin-left: 9rem;
     position: relative;
-    right: 25rem;
+    right: 22rem;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -167,6 +163,7 @@ li {
     border: none;
 }
 
+/* ------------------------- */
 
 .space-section {
     width: 100%;
@@ -328,13 +325,32 @@ li {
         margin-right: 2rem;
     }
 
+    .header-texts {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-intro {
+        text-align: center;
+        margin-left: 0rem;
+    }
+
+    .header-title {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .header-desc {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
     .header-img {
         right: 0px;
-        margin-right: 2rem;
     }
 
     .header-form {
-        margin-left: 2rem;
+        margin-right: 4rem;
         margin-top: 10rem;
         right: 15rem;
         bottom: 5rem;
