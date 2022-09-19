@@ -312,10 +312,70 @@ li {
     font-size: 1.5rem;
 }
 
-.test-page {
+
+
+.facilities {
+    width: 100vw;
+    height: 100vh;
+    background-color: whitesmoke;
+    position: relative;
+}
+
+.facilities-heading {
+    width: 100%;
+    height: auto;
+    margin-left: 7rem;
+}
+
+.fac-text-intro {
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.fac-title {
+    color: #10375c;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.fac-spaces {
+    width: 250px;
+    height: auto;
+    background-color: white;
+    margin-left: 7rem;
+    margin-top: 3rem;
+}
+
+.fac-place-list {
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.fac-place {
+    width: auto;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.fac-place:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.fac-image {
+    position: absolute;
+    bottom: 4rem;
+    right: 7rem;
+}
+
+.test {
     width: 100vw;
     height: 100vh;
     background-color: black;
+    margin-top: 2rem;
 }
 
 /* Media query */
