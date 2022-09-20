@@ -386,6 +386,13 @@ li {
     margin-top: 2rem;
 }
 
+article {
+    width: 100vw;
+    height: 500px;
+    background-color: lightgray;
+    margin-top: 2rem;
+}
+
 /* Media query */
 @media (max-width: 1100px) {
 
