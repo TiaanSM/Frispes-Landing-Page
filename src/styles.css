@@ -543,6 +543,14 @@ li {
     font-size: 1.2rem;
 }
 
+
+
+.news-section {
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+}
+
 /* Media query */
 @media (max-width: 1100px) {
 
