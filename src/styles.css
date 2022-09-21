@@ -424,28 +424,123 @@ li {
 .reviews-section {
     width: 100%;
     height: auto;
-    background-color: lightblue;
 }
 
 .review-text-content {
     width: 100%;
     height: auto;
-    background-color: lightgray;
+}
+
+.review-intro {
+    margin-left: 7rem;
+    margin-bottom: 1rem;
+}
+
+.review-title {
+    font-size: 2rem;
+    margin-left: 7rem;
+    margin-bottom: 2rem;
+    color: #10375c;
 }
 
 .review-cards-container {
     width: 100%;
     height: auto;
-    background-color: gray;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 7rem;
 }
 
 .review-card {
     width: 350px;
     height: 350px;
     background-color: #10375c;
+    margin: 1rem;
+    position: relative;
+}
+
+.review {
+    color: white;
+    margin: 2rem;
+}
+
+.reviewer-content {
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    bottom: 1rem;
+}
+
+.reviewer-profile {
+    position: absolute;
+    left: 2rem;
+    top: 0.5rem;
+}
+
+.reviewer-name {
+    position: absolute;
+    top: 1rem;
+    left: 7rem;
+    color: white;
+}
+
+.reviewer-occupation {
+    position: absolute;
+    top: 2.4rem;
+    left: 7rem;
+    color: white;
+}
+
+
+.help-section {
+    width: 100%;
+    height: auto;
+    background-color: lightgray;
+}
+
+.help-title {
+    width: 100%;
+    height: auto;
+    font-size: 2rem;
+    text-align: center;
+    color: #10375c;
+}
+
+.questions-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.question-card {
+    width: 20rem;
+    height: 12rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.question {
+    font-size: 1.5rem;
+    margin: 3rem;
+    text-align: center;
+}
+
+.more-questions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    color: orangered;
+    text-decoration: none;
+    font-size: 1.2rem;
 }
 
 /* Media query */
