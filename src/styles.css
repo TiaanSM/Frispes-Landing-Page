@@ -8,6 +8,8 @@ body {
 	overflow-x: hidden;
 }
 
+/*/ Navbar - Section /*/
+
 nav {
     width: 100%;
     height: 100px;
@@ -76,7 +78,7 @@ li {
 	text-align: center;
 }
 
-/*------------------------*/
+/*/ Header - Section /*/
 
 .header-intro {
     margin-left: 7rem;
@@ -163,7 +165,7 @@ li {
     border: none;
 }
 
-/* ------------------------- */
+/*/ Spaces - Section /*/
 
 .space-section {
     width: 100%;
@@ -239,7 +241,12 @@ li {
     bottom: 0px;
 }
 
+
+/*/ Promo - Section /*/
+
 .section-2 {
+    width: auto;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -313,6 +320,7 @@ li {
 }
 
 
+/*/ Facilities - Section /*/
 
 .facilities {
     width: 100vw;
@@ -358,6 +366,7 @@ li {
     width: auto;
     font-size: 1.5rem;
     padding: 1rem;
+    cursor: pointer;
 }
 
 .fac-place:hover {
@@ -372,6 +381,7 @@ li {
 }
 
 
+/*/ Gallery - Section /*/
 
 .gallery {
     width: 100vw;
@@ -379,13 +389,8 @@ li {
     background-color: lightgray;
 }
 
-.test {
-    width: 100vw;
-    height: 100vh;
-    background-color: black;
-    margin-top: 2rem;
-}
 
+/*/ Promo - Section /*/
 
 .promo-section {
     width: 100vw;
@@ -421,6 +426,8 @@ li {
 }
 
 
+/*/ Review - Section /*/
+
 .reviews-section {
     width: 100%;
     height: auto;
@@ -449,7 +456,6 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 7rem;
 }
 
 .review-card {
@@ -492,6 +498,8 @@ li {
     color: white;
 }
 
+
+/*/ Help - Section /*/
 
 .help-section {
     width: 100%;
@@ -544,6 +552,7 @@ li {
 }
 
 
+/*/ News - Section /*/
 
 .news-section {
     width: 100vw;
@@ -584,7 +593,102 @@ li {
     background-color: whitesmoke;
 }
 
-/* Media query */
+
+/*/ Sign Up - Section /*/
+
+.sign-up-section {
+    width: 100%;
+    height: 400px;
+    background-color: #10375c;
+    position: relative;
+}
+
+.section-intro {
+    color: white;
+    margin-left: 7rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.sign-title {
+    color: white;
+    font-size: 2rem;
+    margin-left: 7rem;
+    margin-bottom: 2rem;
+}
+
+.sign-desc {
+    color: white;
+    margin-left: 7rem;
+}
+
+.sign-cta {
+    padding: 1rem 3.5rem;
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    left: 7rem;
+    top: 14rem;
+}
+
+
+/*/ Footer - Section /*/
+
+footer {
+    width: 100%;
+    height: auto;
+    background-color: #0d2c4a;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-logo {
+    color: white;
+    font-size: 3rem;
+    margin: 0rem 0rem 2rem 0rem;
+}
+
+.footer-desc {
+    color: white;
+    margin: 0rem 0rem 2rem 0rem;
+    line-height: 1.4rem;
+}
+
+.social-icon {
+    margin-inline: 0.5rem;
+}
+
+.footer-links {
+    width: 200px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    background-color: green;
+}
+
+.f-link {
+    width: auto;
+    height: auto;
+    color: white;
+    text-decoration: none;
+    margin: 0.5rem 0rem 0.5rem 0rem;
+}
+
+.link-title {
+    color: white;
+    position: absolute;
+    top: 0rem;
+    font-size: 1.4rem;
+}
+
+/*/ Media query /*/
+
 @media (max-width: 1100px) {
 
     nav {
