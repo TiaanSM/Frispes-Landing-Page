@@ -467,10 +467,11 @@ li {
 .review-intro {
     margin-left: 7rem;
     margin-bottom: 1rem;
+    padding-top: 1rem;
 }
 
 .review-title {
-    font-size: 2rem;
+    font-size: 3rem;
     margin-left: 7rem;
     margin-bottom: 2rem;
     color: #10375c;
@@ -482,6 +483,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 2rem;
 }
 
 .review-card {
@@ -536,10 +538,11 @@ li {
 .help-title {
     width: 100%;
     height: auto;
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
     color: #10375c;
     padding-top: 2rem;
+    padding-bottom: 1rem;
 }
 
 .questions-container {
@@ -583,31 +586,41 @@ li {
     color: orangered;
     text-decoration: none;
     font-size: 1.2rem;
-    padding: 2rem 0rem;
+    padding: 3rem 0rem;
 }
 
 .awnser-icon {
-    padding: 0.4rem 1rem;
+    padding: 0.5rem 1rem;
     background-color: orangered;
     position: absolute;
     bottom: -2rem;
     cursor: pointer;
 }
 
+.awnser-icon:hover {
+    transform: rotate(180deg);
+}
+
+.active-icon {
+    background-color: white;
+    box-shadow: 0px 2px 5px rgb(190, 190, 190);
+}
+
 /*/ News - Section /*/
 
 .news-section {
     width: 100vw;
-    height: 100vh;
-    background-color: gray;
+    height: auto;
+    background-color: lightgray;
 }
 
 .news-title {
     width: 100%;
     height: auto;
-    font-size: 2rem;
+    font-size: 3rem;
     color: #10375c;
     margin-left: 7rem;
+    padding-top: 3rem;
 }
 
 .news-more {
@@ -622,19 +635,65 @@ li {
 .news-container {
     width: 100%;
     height: auto;
-    background-color: lightblue;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding-bottom: 3rem;
 }
 
 .news-card {
     width: 350px;
-    height: auto;
-    background-color: whitesmoke;
+    height: 320px;
+    margin: 1rem;
+    position: relative;
+    background-color: white;
 }
 
+.news-card-title {
+    font-size: 2.5rem;
+    margin: 1rem;
+}
+
+.news-card-desc {
+    margin: 1rem;
+}
+
+.news-reporter {
+    position: relative;
+    top: 1.15rem;
+    height: 6.5rem;
+    width: 100%;
+}
+
+.reporter-img {
+    position: absolute;
+    left: 1rem;
+    bottom: 1rem;
+}
+
+.reporter-name {
+    position: absolute;
+    left: 6rem;
+    bottom: 3rem;
+}
+
+.reporter-job {
+    position: absolute;
+    left: 6rem;
+    bottom: 1.8rem;
+}
+
+.news-card-header {
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.news-card-author {
+    position: absolute;
+    left: 1rem;
+    bottom: 1rem;
+}
 
 /*/ Sign Up - Section /*/
 
