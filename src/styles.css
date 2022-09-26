@@ -156,7 +156,7 @@ header {
 }
 
 .header-form-input {
-    margin: 1rem 0rem 1rem 0rem;
+    margin: 1rem 0rem 1.8rem 0rem;
     padding: 0rem 0.5rem;
     border: none;
     width: 20rem;
@@ -177,12 +177,12 @@ header {
 
 .title-2 {
     left: 3.2rem;
-    top: 9.4rem;
+    top: 10.2rem;
 }
 
 .title-3 {
     left: 3.2rem;
-    top: 14.5rem;
+    top: 16.1rem;
 }
 
 .header-form-btn {
@@ -239,7 +239,7 @@ header {
 .image-container1 {
     width: 350px;
     height: 419px;
-    background-image: url(../images/image\ 5.png);
+    background-image: url(../images/space-img-1.png);
     position: relative;
     margin: 1rem;
 }
@@ -269,7 +269,7 @@ header {
 .image-container3 {
     width: 350px;
     height: 419px;
-    background-image: url(../images/Rectangle\ 11\ \(1\).png);
+    background-image: url(../images/space-img-3.png);
     position: relative;
     margin: 1rem;
 }
@@ -373,6 +373,7 @@ header {
     background-color: whitesmoke;
     position: relative;
     margin-top: 5rem;
+    padding-bottom: 2rem;
 }
 
 .facilities-heading {
