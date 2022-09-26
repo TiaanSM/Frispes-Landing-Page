@@ -297,7 +297,7 @@ header {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding-top: 0rem;
+    padding-top: 3rem;
 }
 
 .icon-container {
@@ -373,7 +373,7 @@ header {
     background-color: whitesmoke;
     position: relative;
     margin-top: 5rem;
-    padding-bottom: 2rem;
+    padding-bottom: 5rem;
 }
 
 .facilities-heading {
@@ -393,11 +393,18 @@ header {
     font-size: 3rem;
 }
 
+.content-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 .fac-spaces {
-    width: 250px;
+    width: 15.625rem;
     height: auto;
     background-color: whitesmoke;
-    margin-left: 7rem;
+    margin-left: 0rem;
     margin-top: 3rem;
 }
 
@@ -408,6 +415,13 @@ header {
     grid-template-columns: 100%;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     border: 1px solid rgba(211, 211, 211, 0.151);
+}
+
+.fac-image-container {
+    width: 45.5625rem;
+    height: 28.3125rem;
+    background-color: red;
+    margin: 1rem;
 }
 
 .fac-place {
@@ -427,19 +441,13 @@ header {
     color: white;
 }
 
-.fac-image {
-    position: absolute;
-    bottom: 2.5rem;
-    right: 6rem;
-}
-
 
 /*/ Gallery - Section /*/
 
 .gallery {
     width: 100vw;
     height: auto;
-    background-color: lightgray;
+    background-color: whitesmoke;
     margin-bottom: 5rem;
     position: relative;
 }
@@ -447,8 +455,8 @@ header {
 .gallery-heading {
     width: 30rem;
     position: absolute;
-    right: 7rem;
-    top: 1rem;
+    right: 20rem;
+    top: 0rem;
 }
 
 .gallery-intro {
@@ -462,11 +470,22 @@ header {
 
 .gallery-images {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
 }
 
+.gallery-img-2 {
+    margin-top: 16rem;
+}
+
+.gallery-img-3 {
+    margin-top: 16rem;
+}
+
+.gallery-img-4 {
+    margin-bottom: 12rem;
+}
 
 /*/ Promo - Section /*/
 
