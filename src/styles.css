@@ -103,7 +103,7 @@ header {
 
 .header-title {
     color: #10375c;
-    font-size: 3rem;
+    font-size: max(2rem, 3rem);
 }
 
 .color-text {
@@ -643,6 +643,10 @@ header {
     padding: 3rem 0rem;
 }
 
+.more-questions > svg {
+    transform: rotate(-90deg);
+}
+
 .awnser-icon {
     padding: 0.5rem 1rem;
     background-color: orangered;
@@ -665,7 +669,6 @@ header {
 .news-section {
     width: 100vw;
     height: auto;
-    background-color: lightgray;
 }
 
 .news-title {
@@ -674,16 +677,7 @@ header {
     font-size: 3rem;
     color: #10375c;
     margin-left: 7rem;
-    padding-top: 3rem;
-}
-
-.news-more {
-    width: 100%;
-    height: auto;
-    color: orangered;
-    text-decoration: none;
-    font-size: 1.2rem;
-    margin-top: 1rem;
+    padding: 2rem 0rem;
 }
 
 .news-container {
@@ -701,7 +695,8 @@ header {
     height: 320px;
     margin: 1rem;
     position: relative;
-    background-color: white;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 5px whitesmoke;
 }
 
 .news-card-title {
@@ -752,24 +747,24 @@ header {
 /*/ Sign Up - Section /*/
 
 .sign-up-section {
-    width: 100%;
-    height: 500px;
+    width: 100vw;
+    height: auto;
     background-color: #10375c;
     position: relative;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .sign-text-content {
     width: auto;
-    height: 500px;
-    margin-right: 21rem;
+    height: auto;
+    margin-left: 7rem;
+    margin-top: 5rem;
 }
 
 .section-intro {
     color: white;
-    margin-top: 5rem;
+    margin-top: 0rem;
     margin-bottom: 1rem;
 }
 
@@ -800,19 +795,21 @@ header {
 .sign-image > img {
     position: absolute;
     bottom: 0px;
-    right: 15rem;
 }
 
 /*/ Footer - Section /*/
 
 footer {
-    width: 100%;
+    width: 100vw;
     height: auto;
     background-color: #0d2c4a;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1.5fr;
+    padding: 3rem 0rem;
+}
+
+.footer-details {
+    margin-left: 5rem;
 }
 
 .footer-logo {
@@ -831,22 +828,27 @@ footer {
     margin-inline: 0.5rem;
 }
 
-.footer-links {
+.footer-link-section {
     width: 200px;
     height: 240px;
+    position: relative;
+}
+
+.footer-links {
+    position: relative;
+    top: 4rem;
+    width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    position: relative;
-    background-color: green;
 }
 
 .link-title {
     color: white;
     position: absolute;
-    top: 0rem;
     font-size: 1.4rem;
+    padding: 1rem 0rem;
 }
 
 .f-link {
@@ -911,6 +913,11 @@ footer {
         right: 0;
         top: 4rem;
     }
+
+    .news-title {
+        width: 100vw;
+        text-align: center;
+    }
 }
 
 @media (max-width: 40em) {
@@ -918,6 +925,27 @@ footer {
 
     .section-texts {
         flex-direction: column;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    } 
+
+    .footer-details {
+        margin-left: 0rem;
+        text-align: center;
+    }
+
+    .link-title {
+        text-align: center;
+        width: 100%;
+    }
+
+    .footer-links {
+        text-align: center;
     }
 
 
