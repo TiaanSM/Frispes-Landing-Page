@@ -5,6 +5,7 @@
 }
 
 body {
+    max-width: 100vw;
 	overflow-x: hidden;
 }
 
@@ -112,7 +113,7 @@ header {
 
 .header-desc {
     margin-top: 0.5rem;
-    font-size: 1.3rem;
+    font-size: max(1rem, 1.3rem);
     font-family: sans-serif;
 }
 
@@ -310,7 +311,7 @@ header {
 }
 
 .icons {
-    width: 220px;
+    width: 260px;
     height: 100px;
     background-color: white;
     display: flex;
@@ -448,7 +449,7 @@ header {
     width: 100vw;
     height: auto;
     background-color: whitesmoke;
-    margin-bottom: 5rem;
+    padding-bottom: 5rem;
     position: relative;
 }
 
@@ -504,7 +505,7 @@ header {
 }
 
 .promo-title {
-    font-size: 3rem;
+    font-size: max(1rem, 3rem);
     margin: 1rem 0rem;
     color: #10375c;
 }
@@ -823,7 +824,7 @@ footer {
     height: auto;
     background-color: #0d2c4a;
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr 1.5fr;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1.3fr;
     padding: 3rem 0rem;
 }
 
@@ -936,14 +937,118 @@ footer {
     .news-title {
         width: 100vw;
         text-align: center;
+        margin: 0rem 0rem 2rem 0rem;
+        padding: 0px;
     }
 }
 
 @media (max-width: 40em) {
+ 
+    body {
+        background-color: lightgreen;
+    }
 
+    .header-texts {
+        width: 100%;
+        text-align: center;
+        padding-inline: 2rem;
+        margin: 0rem;
+    }
+
+    .header-form {
+        width: 310px;
+    }
+
+    .form-title {
+        font-size: 1.8rem;
+    }
+
+    .header-form-input {
+        width: 250px;
+    }
+
+    .header-form-btn {
+        padding: 1rem 4.6rem;
+    }
+
+    .section-title {
+        padding-bottom: 2rem;
+        font-size: 3rem;
+    }
 
     .section-texts {
         flex-direction: column;
+        padding-inline: 1rem;
+    }
+
+    .section-texts > p {
+        margin-bottom: 1.5rem;
+    }
+
+    .next-slide, .prev-slide {
+        margin-bottom: 4rem;
+    }
+
+    .icon-container {
+        grid-template-columns: 1fr;
+    }
+
+    .text-content {
+        height: auto;
+    }
+
+    .facilities-heading {
+        margin: 0rem;
+        padding-inline: 2rem;
+    }
+
+    .fac-text-intro {
+        margin: 0rem;
+        text-align: center;
+        padding-inline: 2rem;
+    }
+
+    .fac-title {
+        font-size: 2.5rem;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .promo-text-content {
+        margin: 0px;
+        text-align: center;
+        padding-inline: 2rem;
+    }
+
+    .promo-brand-container {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .promo-brand {
+        margin: 1rem 0rem 1rem 0rem;
+    }
+
+    .review-text-content {
+        text-align: center;
+    }
+
+    .review-intro {
+        margin: 0px;
+    }
+
+    .review-title {
+        margin: 0px;
+    }
+
+    .sign-title {
+        width: 100%;
+        text-align: center;
+        margin: 0rem;
+    }
+
+    .sign-image {
+        display: none;
     }
 
     footer {
