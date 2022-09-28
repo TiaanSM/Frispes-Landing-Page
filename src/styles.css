@@ -254,6 +254,7 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin: 1rem;
 }
 
 .space-card-title {
@@ -421,7 +422,6 @@ header {
 .fac-image-container {
     width: 45.5625rem;
     height: 28.3125rem;
-    background-color: red;
     margin: 1rem;
 }
 
@@ -433,12 +433,12 @@ header {
 }
 
 .active-place {
-    background-color: orangered;
+    background-color: #ff5722;
     color: white;
 }
 
 .fac-place:hover {
-    background-color: orangered;
+    background-color: #ff5722;
     color: white;
 }
 
@@ -641,7 +641,7 @@ header {
 }
 
 .question-card:nth-child(2) {
-    background-color: orangered;
+    background-color: #ff5722;
     color: white;
 }
 
@@ -657,7 +657,7 @@ header {
     align-items: center;
     width: 100%;
     height: auto;
-    color: orangered;
+    color: #ff5722;
     text-decoration: none;
     font-size: 1.2rem;
     padding: 3rem 0rem;
@@ -669,7 +669,7 @@ header {
 
 .awnser-icon {
     padding: 0.5rem 1rem;
-    background-color: orangered;
+    background-color: #ff5722;
     position: absolute;
     bottom: -2rem;
     cursor: pointer;
@@ -800,7 +800,7 @@ header {
 
 .sign-cta {
     padding: 1rem 3.5rem;
-    background-color: orangered;
+    background-color: #ff5722;
     color: white;
     text-decoration: none;
     position: relative;
@@ -945,7 +945,7 @@ footer {
 @media (max-width: 40em) {
  
     body {
-        background-color: lightgreen;
+        background-color: white;
     }
 
     .header-texts {
@@ -983,6 +983,7 @@ footer {
 
     .section-texts > p {
         margin-bottom: 1.5rem;
+        padding-inline: 1rem;
     }
 
     .next-slide, .prev-slide {
@@ -995,6 +996,12 @@ footer {
 
     .text-content {
         height: auto;
+        width: 100vw;
+        padding-inline: 1rem;
+    }
+
+    .text-title {
+        font-size: 2.5rem;
     }
 
     .facilities-heading {
@@ -1012,6 +1019,17 @@ footer {
         font-size: 2.5rem;
         text-align: center;
         margin-top: 1rem;
+    }
+
+    .fac-image-container {
+        width: 100vw;
+        height: auto;
+        overflow-x: hidden;
+    }
+
+    .gallery-img-1 {
+        width: auto;
+        overflow-x: hidden;
     }
 
     .promo-text-content {
