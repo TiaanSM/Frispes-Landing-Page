@@ -21,7 +21,7 @@ nav {
 }
 
 .nav-logo {
-    font-size: 2rem;
+    font-size: 3rem;
     color: #10375c;
 }
 
@@ -33,7 +33,6 @@ li {
 .link {
     text-decoration: none;
     color: black;
-    font-size: 1rem;
     font-family: sans-serif;
     margin-inline: 1rem;
     font-weight: 500;
@@ -41,8 +40,6 @@ li {
 
 .log-in-btn {
     color: #ff5722;
-	padding: 0;
-	background-color: whitesmoke;
 	border: none;
 }
 
@@ -51,7 +48,6 @@ li {
     color: white;
     background-color: #ff5722;
     box-shadow: 0px 2px 5px rgba(255, 166, 0, 0.336);
-	border-radius: 0;
 }
 
 .nav-hamburger {
@@ -61,7 +57,7 @@ li {
 
 .mobile-menu {
 	width: 100vw;
-	height: 276px;
+	height: 17.25rem;
 	background-color: whitesmoke;
 	position: fixed;
 	display: flex;
@@ -85,12 +81,11 @@ li {
 header {
     width: auto;
     height: auto;
-    padding-bottom: 10rem;
+    padding: 1rem 0rem 5rem 0rem;
 }
 
 .header-intro {
-    margin-left: 7rem;
-    margin-top: 1rem;
+    margin: 1rem 0rem 0rem 7rem;
 }
 
 .header-texts {
@@ -138,8 +133,7 @@ header {
     width: 25rem;
     height: 28rem;
     background-color: #10375c;
-    margin-top: 3rem;
-    margin-left: 3rem;
+    margin: 3rem 0rem 0rem 3rem;
     z-index: 1;
     position: relative;
     right: 22rem;
@@ -152,7 +146,7 @@ header {
     font-size: 2rem;
     text-align: center;
     color: white;
-    margin-top: 1.5rem;
+    padding-top: 1.5rem;
     margin-bottom: 1rem;
 }
 
@@ -238,16 +232,16 @@ header {
 }
 
 .image-container1 {
-    width: 350px;
-    height: 419px;
+    width: 21.875rem;
+    height: 26.1875rem;
     background-image: url(../images/space-img-1.png);
     position: relative;
     margin: 1rem;
 }
 
 .image-container2 {
-    width: 350px;
-    height: 419px;
+    width: 21.875rem;
+    height: 26.1875rem;
     position: relative;
     background-color: #10375c;
     display: flex;
@@ -269,16 +263,16 @@ header {
 }
 
 .image-container3 {
-    width: 350px;
-    height: 419px;
+    width: 21.875rem;
+    height: 26.1875rem;
     background-image: url(../images/space-img-3.png);
     position: relative;
     margin: 1rem;
 }
 
 .more-icon {
-    width: 50px;
-    height: 50px;
+    width: 3.125rem;
+    height: 3.125rem;
     background-color: #ff5722;
     display: flex;
     justify-content: center;
@@ -303,17 +297,18 @@ header {
 }
 
 .icon-container {
-    width: auto;
-    height: auto;
+    width: 33.75rem;
+    height: 26.3125rem;
     background-color: white;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    margin-right: 1rem;
 }
 
 .icons {
-    width: 260px;
-    height: 100px;
+    width: 16.25rem;
+    height: 6.25rem;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -341,11 +336,13 @@ header {
     position: absolute;
     bottom: 1rem;
     left: 4rem;
+    font-size: 1.3rem;
+    font-family: sans-serif;
 }
 
 .text-content {
-    width: 540px;
-    height: 421px;
+    width: 33.75rem;
+    height: 26.3125rem;
     background-color: #10375c;
 }
 
@@ -482,10 +479,6 @@ header {
 
 .gallery-img-3 {
     margin-top: 16rem;
-}
-
-.gallery-img-4 {
-    margin-bottom: 12rem;
 }
 
 /*/ Promo - Section /*/
@@ -946,6 +939,7 @@ footer {
  
     body {
         background-color: white;
+        overflow-x: hidden;
     }
 
     .header-texts {
@@ -979,11 +973,14 @@ footer {
     .section-texts {
         flex-direction: column;
         padding-inline: 1rem;
+        padding-top: 7rem;
+        padding-bottom: 2rem;
     }
 
     .section-texts > p {
         margin-bottom: 1.5rem;
         padding-inline: 1rem;
+        text-align: center;
     }
 
     .next-slide, .prev-slide {
@@ -992,6 +989,11 @@ footer {
 
     .icon-container {
         grid-template-columns: 1fr;
+        height: auto;
+    }
+
+    .icons {
+        margin-inline: auto;
     }
 
     .text-content {
@@ -1027,15 +1029,33 @@ footer {
         overflow-x: hidden;
     }
 
-    .gallery-img-1 {
-        width: auto;
-        overflow-x: hidden;
+    .gallery-heading {
+        top: 0rem;
+        right: 0rem;
+        text-align: center;
+        background-color: white;
+        padding-bottom: 2rem;
+        width: 100vw;
+    }
+
+    .gallery-images {
+        width: 100vw;
+        height: auto;
+        justify-content: center;
+    }
+
+    .gallery-img-2 {
+        margin: 1rem;
+    }
+
+    .gallery-img-3 {
+        margin: 1rem;
     }
 
     .promo-text-content {
         margin: 0px;
         text-align: center;
-        padding-inline: 2rem;
+        padding: 2rem 2rem 0rem 2rem;
     }
 
     .promo-brand-container {
@@ -1053,16 +1073,29 @@ footer {
 
     .review-intro {
         margin: 0px;
+        padding-top: 2rem;
     }
 
     .review-title {
         margin: 0px;
     }
 
+    .sign-text-content {
+        width: 100vw;
+        text-align: center;
+        height: auto;
+        margin: 1rem;
+        padding-bottom: 5rem;
+    }
+
+    .sign-image {
+        display: none;
+    }
+
     .sign-title {
         width: 100%;
         text-align: center;
-        margin: 0rem;
+        padding-bottom: 0.5rem;
     }
 
     .sign-image {
