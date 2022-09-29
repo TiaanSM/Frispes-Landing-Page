@@ -439,6 +439,25 @@ header {
     color: white;
 }
 
+.fac-image1 {
+    display: none;
+}
+
+.fac-image2 {
+    display: none;
+}
+
+.fac-image3 {
+    display: none;
+}
+
+.fac-image4 {
+    display: none;
+}
+
+.fac-image5 {
+    display: none;
+}
 
 /*/ Gallery - Section /*/
 
@@ -479,6 +498,12 @@ header {
 
 .gallery-img-3 {
     margin-top: 16rem;
+}
+
+@keyframes slideFromLeft {
+    0% {
+        
+    }
 }
 
 /*/ Promo - Section /*/
