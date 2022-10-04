@@ -286,7 +286,7 @@ header {
 
 /*/ Promo - Section /*/
 
-.section-2 {
+.benefits-section {
     width: 100vw;
     height: auto;
     display: flex;
@@ -340,24 +340,24 @@ header {
     font-family: sans-serif;
 }
 
-.text-content {
+.benefits-text-content {
     width: 33.75rem;
     height: 26.3125rem;
     background-color: #10375c;
 }
 
-.top-text {
+.benefits-text-intro {
     color: white;
     margin: 2rem;
 }
 
-.text-title {
+.benefits-text-title {
     color: white;
     font-size: 3rem;
     margin: 2rem;
 }
 
-.bottom-text {
+.benefits-bottom-text {
     color: white;
     margin: 2rem;
     font-size: 1.5rem;
@@ -366,7 +366,7 @@ header {
 
 /*/ Facilities - Section /*/
 
-.facilities {
+.facilities-section {
     width: 100vw;
     height: auto;
     background-color: whitesmoke;
@@ -492,17 +492,42 @@ header {
     flex-wrap: wrap;
 }
 
+.gallery-img-1 {
+    animation: slideFromLeft 1s ease-in;
+    position: relative;
+}
+
 .gallery-img-2 {
     margin-top: 16rem;
+    position: relative;
+    animation: slideFromRight 2s ease-in;
 }
 
 .gallery-img-3 {
     margin-top: 16rem;
+    position: relative;
+    animation: slideFromRight 2s ease-in;
 }
+
+/* THE ANIMATION WILL BE ADDED TO DOM WHEN INTERSECTION OBSERVER HITS SECTION */
 
 @keyframes slideFromLeft {
     0% {
-        
+        right: 500px;
+    }
+
+    100% {
+        right: 0px;
+    }
+}
+
+@keyframes slideFromRight {
+    0% {
+        left: 1000px;
+    }
+
+    100% {
+        left: 0px;
     }
 }
 
@@ -1021,13 +1046,13 @@ footer {
         margin-inline: auto;
     }
 
-    .text-content {
+    .benefits-text-content {
         height: auto;
         width: 100vw;
         padding-inline: 1rem;
     }
 
-    .text-title {
+    .benefits-text-title {
         font-size: 2.5rem;
     }
 

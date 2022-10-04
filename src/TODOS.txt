@@ -1,0 +1,6 @@
+# Make sure the h1-h6 are used correctly.
+# Finish animations for site.
+# Complete all the js required for the site.
+# Refactor and clean up, check for ways to decrease the amount of code without breaking the site.
+# Improve responsiveness
+# Improve the site: Integrate a framework like vue and improve functionality and animations.

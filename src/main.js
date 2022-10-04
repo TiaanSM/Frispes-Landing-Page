@@ -5,19 +5,12 @@ navHamburger.addEventListener('click', () => {
 	mobileMenu.classList.toggle('active-menu');
 });
 
-
 // Test to see if images fit,(need to clean up the code to a for each click statement)
-const itemOne = document.getElementById('fac-1');
 const itemTwo = document.getElementById('fac-2');
 const itemThree = document.getElementById('fac-3');
 const itemFour = document.getElementById('fac-4');
 const itemFive = document.getElementById('fac-5');
 
-
-itemOne.addEventListener('click', () => {
-   const facImage1 = document.querySelector('.fac-image1');
-   facImage1.classList.toggle('fac-image1');
-});
 
 itemTwo.addEventListener('click', () => {
 	const facImage2 = document.querySelector('.fac-image2');
