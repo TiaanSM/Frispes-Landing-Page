@@ -497,15 +497,12 @@ header {
     position: relative;
 }
 
-.gallery-img-2 {
+.gallery-img-2 , .gallery-img-3 {
     margin-top: 16rem;
     position: relative;
-    animation: slideFromRight 2s ease-in;
 }
 
-.gallery-img-3 {
-    margin-top: 16rem;
-    position: relative;
+.gallery-img-2.animated , .gallery-img-3.animated {
     animation: slideFromRight 2s ease-in;
 }
 
